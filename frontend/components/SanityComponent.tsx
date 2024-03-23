@@ -15,6 +15,7 @@ const SanityComponent = ({ ...props }: SanityComponentProps) => {
     case ComponentType.HERO_WITH_PICTURE:
       return <Hero {...props} />
     case ComponentType.RICH_TEXT:
+      // @ts-ignore
       return <RichText {...props} />
     default:
       return <></>

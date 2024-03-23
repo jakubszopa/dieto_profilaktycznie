@@ -11,6 +11,7 @@ type RichTextType = {
 
 const myPortableTextComponents = {
   types: {
+    // @ts-ignore
     richImage: ({ value }) => {
       return (
         <img
@@ -64,6 +65,7 @@ export default function RichText({ richText }: RichTextType) {
   return (
     <div className="p-4">
       <div className="container bg-base-100 p-4 lg:p-20 rounded-box relative overflow-hidden">
+        {/* @ts-ignore */}
         <PortableText value={richText} components={myPortableTextComponents} />
       </div>
     </div>

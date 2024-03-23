@@ -63,7 +63,3 @@ export interface Page extends SanityEntry {
 export const getPages = sanityClient.createApiUtil<Page[]>("getPagesQuery")
 export const getHomepageData =
   sanityClient.createApiUtil<Page>("getHomepageQuery")
-export const getTheme = sanityClient.createApiUtil<Theme>("getThemeQuery")
-export const getCookieBanner = sanityClient.createApiUtil<CookieBanner>(
-  "getCookieBannerQuery"
-)

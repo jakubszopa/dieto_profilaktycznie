@@ -16,3 +16,5 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
+
+// https://sanity-next-landing.vercel.app
